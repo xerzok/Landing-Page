@@ -47,4 +47,20 @@ body {
     align-items: center;
 }
 
+.exampleimg {
+    border-style: dotted;
+    border: 5px solid blue;
+}
+
 .text {max-width: 150px;}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 400px;
+}
+
+.author {
+    text-align: right;
+}

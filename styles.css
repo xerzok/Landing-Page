@@ -1,6 +1,12 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    background-color: #1F2937;
 }
 
 .header {

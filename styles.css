@@ -60,6 +60,9 @@ body {
 
 .text {max-width: 150px;}
 
+.quotebackground {
+    background-color: #e5e7eb;
+}
 .quote {
     display: flex;
     flex-direction: column;

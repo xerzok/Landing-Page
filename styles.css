@@ -27,8 +27,8 @@ body {
 .introduction {
     display: flex;
     justify-content: space-between;
-    margin-left: 250px;
-    margin-right: 250px;
+    align-items: center;
+    margin: 60px 250px;
 }
 
 .information {

@@ -67,6 +67,15 @@ ul {
     gap:52px;
 }
 
+.infoheader {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+.text {
+    color: #1F2937;
+}
+
 .row {
     display: flex;
     align-items: center;

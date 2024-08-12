@@ -8,6 +8,7 @@ body {
 * {
     color: white;
     font-size: 20px;
+    border-radius: 3px;
 }
 
 a{
@@ -20,7 +21,8 @@ a{
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 130px;
     margin-left: 250px;
     margin-right: 250px;
     
@@ -36,7 +38,7 @@ ul {
     display: flex;
     list-style-type: none;
     justify-content: space-between;
-    gap: 12px;
+    gap: 25px;
     color: #f9faf8;
     font-size: 24px;
 }
@@ -44,11 +46,13 @@ ul {
 .introduction {
     display: flex;
     justify-content: center;
-    gap: 52px;
+    gap: 100px;
     align-items: center;
     margin: 60px 250px;
 }
-
+.left{
+    width: 400px;
+}
 .title {
     font-size: 48px;
     font-weight: bolder;

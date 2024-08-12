@@ -139,6 +139,10 @@ ul {
     padding: 30px 50px;
 }
 
+.register {
+    min-width: 0px;
+}
+
 .footer {
     padding: 20px;
     display: flex;

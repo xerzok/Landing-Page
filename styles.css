@@ -28,6 +28,8 @@ a{
 
 .headerleft {
     font-weight: bold;
+    color: #f9faf8;
+    font-size: 24px;
 }
 
 ul {
@@ -35,6 +37,8 @@ ul {
     list-style-type: none;
     justify-content: space-between;
     gap: 12px;
+    color: #f9faf8;
+    font-size: 24px;
 }
 
 .introduction {
@@ -47,7 +51,13 @@ ul {
 .title {
     font-size: 48px;
     font-weight: bolder;
+    color: #f9faf8;
     
+}
+
+.info {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .information {

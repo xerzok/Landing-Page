@@ -43,7 +43,8 @@ ul {
 
 .introduction {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 52px;
     align-items: center;
     margin: 60px 250px;
 }
@@ -82,7 +83,6 @@ ul {
     border-color: blue;
     gap:52px;
     text-align: center;
-    
 }
 
 .example {
@@ -96,7 +96,10 @@ ul {
     border: 5px solid blue;
 }
 
-.text {max-width: 150px;}
+.text {
+    max-width: 150px;
+    color: #1F2937;
+}
 
 .quotebackground {
     background-color: #e5e7eb;
@@ -105,11 +108,21 @@ ul {
     display: flex;
     flex-direction: column;
     margin: auto;
-    width: 400px;
+    width: 800px;
+}
+
+.quotetext {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: unset;
 }
 
 .author {
     text-align: right;
+    color: #1F2937;
+    font-weight: bold;
+    margin-top: -40px;
 }
 
 .registration {
